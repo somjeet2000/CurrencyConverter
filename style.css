@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #25283d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #f7f0f5;
+  border-radius: 1rem;
+  padding: 2rem;
+  min-height: 45vh;
+  width: 45vh;
+}
+
+form {
+  margin: 1rem 0 1rem 0;
+}
+
+form select,
+input,
+button {
+  width: 100%;
+  border: none;
+  border-radius: 0.75rem;
+  outline: none;
+}
+
+form input {
+  border: 1px #7daa92 solid;
+  height: 3rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.selectContainer img {
+  max-width: 2rem;
+}
+
+.selectContainer {
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border: 1px #7daa92 solid;
+}
+
+.selectContainer select {
+  font-size: 0.75rem;
+  width: auto;
+}
+
+#message {
+  margin: 1rem 0 0 0;
+  max-width: auto;
+}
+
+#btn {
+  border: 1px #7daa92 solid;
+  background-color: #103900;
+  color: #f7f0f5;
+  height: 3rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.hide {
+  display: none;
+}
+
+#error {
+  color: #bf211e;
+  font-size: 0.75rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
